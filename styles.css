@@ -73,8 +73,7 @@ body {
   text-align: center;
 }
 
-#input,
-#home {
+#input #home {
   font-size: 1.5rem;
   padding: 10px;
   margin: 10px;
@@ -93,7 +92,7 @@ body {
   width: auto;
 }
 
-#htryAgainText {
+#tryAgainText {
   color: rgb(41, 249, 86);
   font-weight: bolder;
   display: none; /* Initially hidden */
@@ -117,8 +116,7 @@ body {
     height: 150px;
   }
 
-  #button,
-  #input,
+  #button  #input
  {
     width: 100%;
     margin: 10px 0;
